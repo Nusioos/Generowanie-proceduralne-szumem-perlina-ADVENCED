@@ -1,0 +1,722 @@
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.GraphData",
+    "m_ObjectId": "7e97c35eade04f79888cf9a57b7f6c71",
+    "m_Properties": [],
+    "m_Keywords": [],
+    "m_Dropdowns": [],
+    "m_CategoryData": [
+        {
+            "m_Id": "eb683bff41004c6285b8c89377b4701b"
+        }
+    ],
+    "m_Nodes": [
+        {
+            "m_Id": "d0c57100809449dfb4ff3d14ca45e9c0"
+        },
+        {
+            "m_Id": "9d8b0f653a874aea8f2234cf52171118"
+        },
+        {
+            "m_Id": "5dfb40213fac462c861427bb2ed57eb3"
+        },
+        {
+            "m_Id": "360a0fae4bc14a8090158622c9b73171"
+        },
+        {
+            "m_Id": "2b5b088a518d4b1faee9824e0ee48caa"
+        },
+        {
+            "m_Id": "c9df149df9d840bfa8e0e0d2164e1d50"
+        },
+        {
+            "m_Id": "2cf387c3fc60483292290fd6701a5e1f"
+        },
+        {
+            "m_Id": "51c20be92337484d8ed7066fabfa6256"
+        },
+        {
+            "m_Id": "257c892fd9e4428db02694506807e778"
+        },
+        {
+            "m_Id": "81e22e137c084ea2bdfd0713787d6205"
+        }
+    ],
+    "m_GroupDatas": [],
+    "m_StickyNoteDatas": [],
+    "m_Edges": [
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "81e22e137c084ea2bdfd0713787d6205"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "360a0fae4bc14a8090158622c9b73171"
+                },
+                "m_SlotId": 0
+            }
+        }
+    ],
+    "m_VertexContext": {
+        "m_Position": {
+            "x": -166.0000457763672,
+            "y": -327.0
+        },
+        "m_Blocks": [
+            {
+                "m_Id": "d0c57100809449dfb4ff3d14ca45e9c0"
+            },
+            {
+                "m_Id": "9d8b0f653a874aea8f2234cf52171118"
+            },
+            {
+                "m_Id": "5dfb40213fac462c861427bb2ed57eb3"
+            }
+        ]
+    },
+    "m_FragmentContext": {
+        "m_Position": {
+            "x": -211.0,
+            "y": -132.99998474121095
+        },
+        "m_Blocks": [
+            {
+                "m_Id": "360a0fae4bc14a8090158622c9b73171"
+            },
+            {
+                "m_Id": "2b5b088a518d4b1faee9824e0ee48caa"
+            },
+            {
+                "m_Id": "c9df149df9d840bfa8e0e0d2164e1d50"
+            },
+            {
+                "m_Id": "2cf387c3fc60483292290fd6701a5e1f"
+            },
+            {
+                "m_Id": "51c20be92337484d8ed7066fabfa6256"
+            },
+            {
+                "m_Id": "257c892fd9e4428db02694506807e778"
+            }
+        ]
+    },
+    "m_PreviewData": {
+        "serializedMesh": {
+            "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
+            "m_Guid": ""
+        },
+        "preventRotation": false
+    },
+    "m_Path": "Shader Graphs",
+    "m_GraphPrecision": 1,
+    "m_PreviewMode": 2,
+    "m_OutputNode": {
+        "m_Id": ""
+    },
+    "m_ActiveTargets": [
+        {
+            "m_Id": "313a035ffd154e788dd3313b39395529"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "257c892fd9e4428db02694506807e778",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.Occlusion",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "2f8884147b9a4fd5a111b7ca9528e78b"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.Occlusion"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "2b5b088a518d4b1faee9824e0ee48caa",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.NormalTS",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "a37fff947d2149d9bbef073315b237e5"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.NormalTS"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "2cf387c3fc60483292290fd6701a5e1f",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.Smoothness",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "ad0ede08b5f54b058932ce4357e13c9d"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.Smoothness"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "2f548c5cdcb040a8b49b0efa5b6822c3",
+    "m_Id": 0,
+    "m_DisplayName": "Metallic",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Metallic",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "2f8884147b9a4fd5a111b7ca9528e78b",
+    "m_Id": 0,
+    "m_DisplayName": "Ambient Occlusion",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Occlusion",
+    "m_StageCapability": 2,
+    "m_Value": 1.0,
+    "m_DefaultValue": 1.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget",
+    "m_ObjectId": "313a035ffd154e788dd3313b39395529",
+    "m_ActiveSubTarget": {
+        "m_Id": "ae6e4698db4b4a28b86d5914fa664194"
+    },
+    "m_AllowMaterialOverride": false,
+    "m_SurfaceType": 0,
+    "m_ZTestMode": 4,
+    "m_ZWriteControl": 0,
+    "m_AlphaMode": 0,
+    "m_RenderFace": 2,
+    "m_AlphaClip": false,
+    "m_CastShadows": true,
+    "m_ReceiveShadows": true,
+    "m_CustomEditorGUI": "",
+    "m_SupportVFX": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "360a0fae4bc14a8090158622c9b73171",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.BaseColor",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "50b0db22e95f4468940dcf97ffc822f2"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "3d8dda99e8774922a6cf09c8e3ca4d11",
+    "m_Id": 0,
+    "m_DisplayName": "New",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "New",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
+    "m_ObjectId": "50b0db22e95f4468940dcf97ffc822f2",
+    "m_Id": 0,
+    "m_DisplayName": "Base Color",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "BaseColor",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_ColorMode": 0,
+    "m_DefaultColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "51c20be92337484d8ed7066fabfa6256",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.Emission",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "a35c127cd1e1487fa559a98845cd4031"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.Emission"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.TangentMaterialSlot",
+    "m_ObjectId": "562468a3a3ab48899c3dccae0991ebdf",
+    "m_Id": 0,
+    "m_DisplayName": "Tangent",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Tangent",
+    "m_StageCapability": 1,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "5dfb40213fac462c861427bb2ed57eb3",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "VertexDescription.Tangent",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "562468a3a3ab48899c3dccae0991ebdf"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "VertexDescription.Tangent"
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.CustomFunctionNode",
+    "m_ObjectId": "81e22e137c084ea2bdfd0713787d6205",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Custom Function",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -671.7932739257813,
+            "y": -174.988037109375,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "3d8dda99e8774922a6cf09c8e3ca4d11"
+        }
+    ],
+    "synonyms": [
+        "code",
+        "HLSL"
+    ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SourceType": 1,
+    "m_FunctionName": "Enter function name here...",
+    "m_FunctionSource": "",
+    "m_FunctionBody": "Shader \"Custom/NewSurfaceShader\"\n{\n    Properties\n    {\n        _WaterFogColor (\"Water Fog Color\", Color) = (0, 0, 0, 0)\n        _WaterFogDensity (\"Water Fog Density\", Range(0, 5)) = 0.1\n        _RefractionStrength (\"Refraction Strength\", Range(0, 10)) = 0.25\n        _Color (\"Color\", Color) = (1,1,1,1)\n        _MainTex (\"Albedo (RGB)\", 2D) = \"white\" {}\n        _Glossiness (\"Smoothness\", Range(0,1)) = 0.5\n        _Metallic (\"Metallic\", Range(0,1)) = 0.0\n        _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n        _FresnelPower (\"Fresnel Power\", Range(0.1, 5.0)) = 1.0\n        _FresnelColor (\"Fresnel Color\", Color) = (1, 1, 1, 1)\n        _WaveA (\"Wave A (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveB (\"Wave B (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveC (\"Wave C (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveD (\"Wave D (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveE (\"Wave E (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveF (\"Wave F (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveG (\"Wave G (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveH (\"Wave H (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveI (\"Wave I (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveJ (\"Wave J (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveK (\"Wave K (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveL (\"Wave L (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveM (\"Wave M (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveN (\"Wave N (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveO (\"Wave O (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveP (\"Wave P (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveQ (\"Wave Q (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveR (\"Wave R (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveS (\"Wave S (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveT (\"Wave T (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveU (\"Wave U (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _WaveV (\"Wave V (dir, steepness, wavelength)\", Vector) = (1,0,0.5,10)\n        _BrownianAmplitude (\"Brownian Amplitude\", Range(0, 1)) = 0.1\n        _BrownianFrequency (\"Brownian Frequency\", Range(0, 10)) = 1.0\n        _NoiseScale (\"Noise Scale\", Range(0.1, 10.0)) = 1.0\n        _NoiseIntensity (\"Noise Intensity\", Range(0.0, 1.0)) = 0.1\n    }\n    SubShader\n    {\n     \n        Tags {\"RenderPipeline\" = \"UniversalPipeline\" \"RenderType\"=\"Transparent\" \"Queue\"=\"Transparent\"}\n        LOD 200\n        GrabPass {\"_WaterBackground\"}\n        HLSLPROGRAM\n        #pragma surface surf Standard alpha finalcolor:ResetAlpha fullforwardshadows vertex:vert addshadow\n        #pragma target 3.0\n      \n        sampler2D _MainTex;\n        sampler2D _BumpMap;\n        sampler2D _CameraDepthTexture, _WaterBackground;\n        float4 _CameraDepthTexture_TexelSize;\n\n        struct Input\n        {\n            float2 uv_MainTex;\n            float2 uv_BumpMap;\n            float3 viewDir;\n            float4 screenPos;\n        };\n\n        float _RefractionStrength;\n        float4 _WaveA, _WaveB, _WaveC, _WaveD, _WaveE, _WaveF, _WaveG, _WaveH, _WaveI, _WaveJ;\n        float4 _WaveK, _WaveL, _WaveM, _WaveN, _WaveO, _WaveP, _WaveQ, _WaveR, _WaveS, _WaveT;\n        float4 _WaveU, _WaveV;\n        float _BrownianAmplitude;\n        float _BrownianFrequency;\n        half _FresnelPower;\n        fixed4 _FresnelColor;\n        float _NoiseScale;\n        float _NoiseIntensity;\n        float3 _WaterFogColor;\n        float _WaterFogDensity;\n\n        #if !defined(LOOKING_THROUGH_WATER_INCLUDED)\n        #define LOOKING_THROUGH_WATER_INCLUDED\n        float3 ColorBelowWater(float4 screenPos, float3 tangentSpaceNormal)\n        {\n            float2 uvOffset = tangentSpaceNormal.xy * _RefractionStrength;\n            uvOffset.y *= _CameraDepthTexture_TexelSize.z * abs(_CameraDepthTexture_TexelSize.y);\n            float2 uv = (screenPos.xy + uvOffset) / screenPos.w;\n            #if UNITY_UV_STARTS_AT_TOP\n            if (_CameraDepthTexture_TexelSize.y < 0) { uv.y = 1 - uv.y; }\n            #endif\n            float backgroundDepth = LinearEyeDepth(SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, uv));\n            float surfaceDepth = UNITY_Z_0_FAR_FROM_CLIPSPACE(screenPos.z);\n            float depthDifference = backgroundDepth - surfaceDepth;\n            float3 backgroundColor = tex2D(_WaterBackground, uv).rgb;\n            float fogFactor = exp2(-_WaterFogDensity * depthDifference);\n            return lerp(_WaterFogColor, backgroundColor, fogFactor);\n        }\n        #endif\n\n        void ResetAlpha(Input IN, SurfaceOutputStandard o, inout fixed4 color) { color.a = 1; }\n\n        float hash(float n) { return frac(sin(n) * 43758.5453123); }\n        float noise(float3 p)\n        {\n            float3 i = floor(p);\n            float3 f = frac(p);\n            f = f * f * (3.0 - 2.0 * f);\n            float n = dot(i, float3(1.0, 57.0, 113.0));\n            return lerp(lerp(lerp(hash(n +  0.0), hash(n +  1.0), f.x),\n                             lerp(hash(n + 57.0), hash(n + 58.0), f.x), f.y),\n                        lerp(lerp(hash(n + 113.0), hash(n + 114.0), f.x),\n                             lerp(hash(n + 170.0), hash(n + 171.0), f.x), f.y), f.z);\n        }\n\n        float3 domainWarp(float3 p)\n        {\n            float3 q = p;\n            q.x += _NoiseIntensity * noise(p * _NoiseScale);\n            q.z += _NoiseIntensity * noise(p * _NoiseScale + float3(5.2, 1.3, 2.1));\n            return q;\n        }\n\n        float3 GerstnerWave(float4 wave, float3 p, inout float3 tangent, inout float3 binormal)\n        {\n            float steepness = wave.z;\n            float wavelength = wave.w;\n            float k = 2 * UNITY_PI / wavelength;\n            float c = sqrt(0.98 / k);\n            float2 d = normalize(wave.xy);\n            float f = k * (dot(d, p.xz) - c * _Time.y);\n            float a = steepness / k;\n            tangent += float3(\n                -d.x * d.x * steepness,\n                d.x * steepness * pow(2.71828, sin(f)) * cos(f),\n                -d.x * d.y * steepness\n            );\n            binormal += float3(\n                -d.x * d.y * steepness,\n                d.y * steepness * pow(2.71828, sin(f)) * cos(f),\n                -d.y * d.y * steepness\n            );\n            return float3(\n                d.x * a,\n                a * pow(2.71828, sin(f) + 1.8),\n                d.y * a\n            );\n        }\n\n        float BrownianMotion(float3 p)\n        {\n            float randomValue = frac(sin(dot(p.xyz, float2(12.9898, 78.233))) * 43758.5453);\n            float offset = (randomValue - 0.5) * 2.0;\n            return offset * _BrownianAmplitude * sin(_BrownianFrequency * _Time.y);\n        }\n\n        void vert(inout appdata_full vertexData)\n        {\n            float3 gridPoint = vertexData.vertex.xyz;\n            float3 tangent = float3(1, 0, 0);\n            float3 binormal = float3(0, 0, 1);\n\n            // Apply domain warping\n            float3 warpedGridPoint = domainWarp(gridPoint);\n\n            float3 p = gridPoint;\n            float4 waves[22] = {\n                _WaveA, _WaveB, _WaveC, _WaveD, _WaveE, _WaveF, _WaveG, _WaveH, _WaveI,\n                _WaveJ, _WaveK, _WaveL, _WaveM, _WaveN, _WaveO, _WaveP, _WaveQ, _WaveR,\n                _WaveS, _WaveT, _WaveU, _WaveV\n            };\n\n            for (int i = 0; i < 22; i++) {\n                p += GerstnerWave(waves[i], warpedGridPoint, tangent, binormal);\n            }\n\n            p.y += BrownianMotion(warpedGridPoint); // Add Brownian motion to the y-axis\n\n            float3 normal = normalize(cross(binormal, tangent));\n\n            vertexData.vertex.xyz = p;\n            vertexData.normal = normal;\n        }\n\n        half _Glossiness;\n        half _Metallic;\n        fixed4 _Color;\n\n        UNITY_INSTANCING_BUFFER_START(Props)\n        UNITY_INSTANCING_BUFFER_END(Props)\n\n        void surf (Input IN, inout SurfaceOutputStandard o)\n        {\n            // Albedo comes from a texture tinted by color\n            fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;\n            o.Albedo = c.rgb;\n\n            // Apply normal mapping\n            o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n\n            // Compute the Fresnel effect\n            float3 worldNormal = normalize(o.Normal);\n            float3 viewDir = normalize(IN.viewDir);\n            float fresnelFactor = pow(1.0 - dot(viewDir, worldNormal), _FresnelPower);\n            fixed4 fresnelColor = _FresnelColor * fresnelFactor;\n\n            // Blend Fresnel effect with the base color\n            o.Albedo = lerp(o.Albedo, fresnelColor.rgb, fresnelFactor);\n\n            // Metallic and smoothness come from slider variables\n            o.Metallic = _Metallic;\n            o.Smoothness = _Glossiness;\n            o.Alpha = c.a;\n            o.Emission = ColorBelowWater(IN.screenPos, o.Normal) * (1 - c.a);\n            o.Albedo = ColorBelowWater(IN.screenPos, o.Normal);\n\n        }\n        ENDHLSL\n    }\n    //  FallBack \"Diffuse\"\n}"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "9d8b0f653a874aea8f2234cf52171118",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "VertexDescription.Normal",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "ce0b38c0bcb44adb8ea857c6bcc7f4f5"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "VertexDescription.Normal"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
+    "m_ObjectId": "a35c127cd1e1487fa559a98845cd4031",
+    "m_Id": 0,
+    "m_DisplayName": "Emission",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Emission",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_ColorMode": 1,
+    "m_DefaultColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
+    "m_ObjectId": "a37fff947d2149d9bbef073315b237e5",
+    "m_Id": 0,
+    "m_DisplayName": "Normal (Tangent Space)",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "NormalTS",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 3
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ad0ede08b5f54b058932ce4357e13c9d",
+    "m_Id": 0,
+    "m_DisplayName": "Smoothness",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Smoothness",
+    "m_StageCapability": 2,
+    "m_Value": 0.5,
+    "m_DefaultValue": 0.5,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalLitSubTarget",
+    "m_ObjectId": "ae6e4698db4b4a28b86d5914fa664194",
+    "m_WorkflowMode": 1,
+    "m_NormalDropOffSpace": 0,
+    "m_ClearCoat": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "c9df149df9d840bfa8e0e0d2164e1d50",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.Metallic",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "2f548c5cdcb040a8b49b0efa5b6822c3"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.Metallic"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
+    "m_ObjectId": "ce0b38c0bcb44adb8ea857c6bcc7f4f5",
+    "m_Id": 0,
+    "m_DisplayName": "Normal",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Normal",
+    "m_StageCapability": 1,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PositionMaterialSlot",
+    "m_ObjectId": "ce67811294ba4bbe9b3482a968a60e11",
+    "m_Id": 0,
+    "m_DisplayName": "Position",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Position",
+    "m_StageCapability": 1,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "d0c57100809449dfb4ff3d14ca45e9c0",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "VertexDescription.Position",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "ce67811294ba4bbe9b3482a968a60e11"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "VertexDescription.Position"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "eb683bff41004c6285b8c89377b4701b",
+    "m_Name": "",
+    "m_ChildObjectList": []
+}
+
